@@ -327,6 +327,12 @@ img {
     display: none;
 }
 
+.nav-phone i {
+    color: var(--color-primary);
+    margin-right: 6px;
+    font-size: 0.85rem;
+}
+
 .nav-toggle {
     display: none;
     background: none;
