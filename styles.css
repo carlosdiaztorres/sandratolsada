@@ -60,7 +60,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -68,8 +68,10 @@ body {
     background-color: var(--color-bg-main);
     color: var(--color-text-main);
     font-family: var(--font-body);
-    line-height: 1.6;
+    line-height: 1.65;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -916,22 +918,8 @@ img {
 .lang-card p {
     font-size: 0.9rem;
     color: var(--color-text-muted);
-    margin-bottom: 16px;
+    margin-bottom: 0;
     line-height: 1.5;
-}
-
-.lang-bar {
-    width: 100%;
-    height: 6px;
-    background-color: var(--color-bg-alt);
-    border-radius: 3px;
-    overflow: hidden;
-}
-
-.lang-fill {
-    height: 100%;
-    background-color: var(--color-primary);
-    border-radius: 3px;
 }
 
 /* ==========================================================================
@@ -1099,7 +1087,7 @@ img {
 /* Large Tablets & Small Desktops (max-width: 1024px) */
 @media (max-width: 1024px) {
     :root {
-        font-size: 15px;
+        font-size: 16px;
     }
     
     .hero-container {
@@ -1260,7 +1248,7 @@ img {
 /* Small Phones (max-width: 480px) */
 @media (max-width: 480px) {
     :root {
-        font-size: 14px;
+        font-size: 15px;
     }
     
     .hero-title {
